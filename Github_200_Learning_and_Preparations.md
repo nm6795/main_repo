@@ -1,26 +1,13 @@
-create feature branch
 
-add some chnage
-
-and then raise pull request
-
-add reviewer and the approve 
-
-then merge
- 
 GH200 + AZ400
  
 https://github.com/skills/introduction-to-github
  
-in github
+github vs azure devops similiarty
 
-azure cicd =  github actions
- 
-azure Pipeline = Workflow
- 
- 
+github actions = azure cicd
+Workflow = azure Pipeline
 Github Projects = Jira
-
 Github wiki = cofluence
  
 www.github.dev = VS code like tool
@@ -28,7 +15,7 @@ www.github.dev = VS code like tool
  
 -> Automate workflows
 
--> yaml based workflows
+-> yml based workflows
 
 --> few parameters needs to be defined like name, 
 
@@ -36,7 +23,7 @@ www.github.dev = VS code like tool
  
 -->runs-on : VM called RUnner or agent like github hosted agent or self-hosted agent
  
---> Job : all the list of task which needs to be executed
+--> jobs : all the list of task which needs to be executed
  
 like Build & Test
  
@@ -46,15 +33,15 @@ uses: actions/checkouts@ predefined test available in github market
  
 run: execute command like ljinux, npm
  
-yaml file shoulbe be in specif folder only
+yml file shoulbe be in specif folder only
  
 .github/workflows/___.yaml
  
  
-github market place for actions
+github market place for actions   ****
  
  
-in yaml multiple jobs can be executed.
+in yml multiple jobs can be executed.
  
 Jobs run in parallel whereas steps run in sequential.
  
@@ -76,8 +63,8 @@ Github cron format: UTC time
  
 Worklow -> Job -> Steps -> Actions
  
-what is github packages : is used to store artifacts in github
- 
+what is github packages? : is used to store artifacts in github
+what is github pyblish ? 
  
 Implement GitHub Actions for CI/CD | AZ400-DesigningandImplementingMicrosoftDevOpsSolutions
  
@@ -85,16 +72,10 @@ Implement GitHub Actions for CI/CD | AZ400-DesigningandImplementingMicrosoftDevO
 Steps to Access the Recordings:
  
 1. Visit: https://testprep.cloudthat.com/course/view.php?id=4479
+id = narendra.mewada@techmahindra.com
+test@123Z
+go to My Courses where you will find the recordings available.
  
-2. Create your account by setting up a Username and Password of your choice.
- 
-3. Use your corporate email ID while registering, complete the required details, and submit.
- 
-4. You will receive a confirmation email on your corporate ID. Open the mail and click the verification link.
- 
-5. When prompted, enter the enrollment key: QC1PJS
- 
-6. Once enrolled, go to My Courses where you will find the recordings available.
  
 Log in to the site | CloudThat Test Prep Platform
 
@@ -116,17 +97,6 @@ Use Azure Key Vault secrets in a GitHub Actions workflow | Microsoft Learn
 
 Securely retrieve secrets with GitHub Actions and Azure Key Vault.
 
-Break - 20 min
-
-hi, if anyone needs help I can see maybe, if they can share their screen
-
-team. if anyone has completed the registration can some one help me > I cannot see the courses after registration 
-
-Back
-
-yes
-
-next topic
 
 Publish Docker Images:
 https://github.com/skills/publish-docker-images
@@ -147,21 +117,7 @@ https://testprep.cloudthat.com/course/view.php?id=4479
 
 Log in to the site | CloudThat Test Prep Platform
 
-feedback completed 
 
-Steps to Access the Recordings:
- 
-1. Visit: https://testprep.cloudthat.com/course/view.php?id=4479
- 
-2. Create your account by setting up a Username and Password of your choice.
- 
-3. Use your corporate email ID while registering, complete the required details, and submit.
- 
-4. You will receive a confirmation email on your corporate ID. Open the mail and click the verification link.
- 
-5. When prompted, enter the enrollment key: QC1PJS
- 
-6. Once enrolled, go to My Courses where you will find the recordings available.
 
 Log in to the site | CloudThat Test Prep Platform
 https://microsoftlearning.github.io/mslearn-github/#gh-300
@@ -181,7 +137,6 @@ https://github.com/skills/hello-github-actions
 LAB 2:
 https://github.com/skills/test-with-actions
 
-------------------------------------------------------------------------------------------------------
 
 Publish Docker Images:
 https://github.com/skills/publish-docker-images
